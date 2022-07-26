@@ -1,4 +1,4 @@
-import { EmojiEmotions, Logout } from '@mui/icons-material';
+import { Logout } from '@mui/icons-material';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -18,11 +18,6 @@ const navItems = [
   { text: 'My List', link: '/mylist' }
 ];
 
-// const navItems = [
-//     { text: 'Indonesian', link: '/indonesian' },
-//     { text: 'Pricing', link: '/pricing' },
-//     { text: 'About', link: '/about' }
-//   ];
 
 const Navbar = () => {
     const navigate = useNavigate();

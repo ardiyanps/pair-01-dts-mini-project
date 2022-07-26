@@ -1,9 +1,8 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
-// TODO: replace with your own config
 const firebaseConfig = {
-    apiKey: "AIzaSyBbaPq-X0QfUJW-ZJPb-X5p8kiLTexhDPs",
+    apiKey: process.env.REACT_APP_FIREBASE_KEY,
     authDomain: "mini-project-react-3de27.firebaseapp.com",
     projectId: "mini-project-react-3de27",
     storageBucket: "mini-project-react-3de27.appspot.com",

@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 import tmdb from '../apis/tmdb';
-import MovieCard from './MovieCard';
 import MovieCarousel from './MovieCarousel';
 
 const CarouselMovie = () => {
