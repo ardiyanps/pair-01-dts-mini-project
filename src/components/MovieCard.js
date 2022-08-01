@@ -1,7 +1,7 @@
-import { Box, CardMedia, Rating } from '@mui/material';
+import { Box, CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import * as React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const BASE_IMAGE_URL = "http://image.tmdb.org/t/p/original";
 
