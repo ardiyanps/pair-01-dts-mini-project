@@ -8,7 +8,6 @@ import * as React from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 
 import { auth } from '../config/firebase';
-// import { useAuthState } from 'react-firebase-hooks/auth';
 
 const navItems = [
   { text: 'Home', link: '/home' },
@@ -30,13 +29,11 @@ const Navbar = () => {
             console.log(err);
         }
     };
-    // const [user] = useAuthState(auth);
 
     return (
         <Box sx={{ display: 'flex' }}>
             <AppBar>
                 <Toolbar>
-                    {/* <EmojiEmotions sx={{ display: 'flex', mr: 2 }} /> */}
                     <Typography
                         variant="h6"
                         sx={{
